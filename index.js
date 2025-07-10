@@ -65,8 +65,12 @@ Aşağıdakileri yap:
  3. Hesaplanan köpeğin yaşını dönün.
  */
 
-function kopeginYasi(/*buraya kodunu yazabilirsin*/) {
-  /*buraya kodunu yazabilirsin*/
+function kopeginYasi(insanYasi) {
+  // Gelen insan yaşını 7 ile çarparak köpeğin yaşını hesapla
+  const kopeginYasi = insanYasi * 7;
+
+  // Hesaplanan köpeğin yaşını döndür
+  return kopeginYasi;
 }
 
 /* Görev 3 */
