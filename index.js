@@ -68,8 +68,6 @@ Aşağıdakileri yap:
 function kopeginYasi(insanYasi) {
   // Gelen insan yaşını 7 ile çarparak köpeğin yaşını hesapla
   const kopeginYasi = insanYasi * 7;
-
-  // Hesaplanan köpeğin yaşını döndür
   return kopeginYasi;
 }
 
